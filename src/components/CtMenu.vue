@@ -3,7 +3,7 @@
         .menu
             .menu__numbers(v-if="!isMobile")                
                 a(href="tel:5335") 5335
-                a(href="tel:+77013510986") +7 (701) 351-09-86
+                a(href="tel:+77016437956") +7 (701) 643-79-56
                 a(href="tel:+77273646874") +7 (727) 364-68-74                                                
             .menu__logo
                 router-link(to="/", style="z-index:10")

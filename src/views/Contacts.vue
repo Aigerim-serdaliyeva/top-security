@@ -1,6 +1,6 @@
 <template lang="pug">
     - 
-        var text = "Наш офис расположен по адресу г Алматы ул Шевченко 153/1. Телефон : 5335, +7 (701) 351-09-86. Email: info@topsecurity.kz. График работы офиса с 9.00 - 18.00"
+        var text = "Наш офис расположен по адресу г Алматы ул Шевченко 153/1. Телефон : 5335, +7 (701) 643-79-56. Email: info@topsecurity.kz. График работы офиса с 9.00 - 18.00"
         var contacts = [
             { text: ' г. Алматы, ул. Шевченко, 153/1' },
             { text: 'Телефон : 5335, +7(701) 031-68-20' },
@@ -57,7 +57,7 @@
                                 .cc_item
                                     a Call-center :     
                                     a  5335,    
-                                    a  +7 (701) 351-09-86, 
+                                    a  +7 (701) 643-79-56, 
                                     a  +7 (727) 364-68-74                                     
                             article                    
                                 +phone(index)
@@ -80,7 +80,7 @@
                                     a Call-center :       
                                     br                 
                                     a(href="tel:5335") 5335,                                                       
-                                    a(href="tel:+77013510986" ) +7 (701) 351-09-86,                                 
+                                    a(href="tel:+77016437956" ) +7 (701) 643-79-56,                                 
                                     br
                                     a(href="tel:+77273646874") +7 (727) 364-68-74                                    
                             article                    
@@ -119,8 +119,8 @@ export default {
       call_err_trigger: false,
       call_err_text: "Пожалуйста, заполните нужные поля",
       publicPath: process.env.BASE_URL,
-      ptext: `Наш офис расположен по адресу <br> г Алматы ул Шевченко 153/1. <br> Телефон : 5335, +7 (701) 351-09-86. <br> Email: info@topsecurity.kz. <br> <a href='https://www.instagram.com/topsecurity.kz/' target="_blank">  Instagram: @topsecurity.kz. </a> <br> График работы офиса с 9.00 - 18.00`,
-      ptextMobile: `Наш офис расположен по адресу г Алматы ул Шевченко 153/1. Телефон : 5335, +7 (701) 351-09-86. Email: info@topsecurity.kz. <a href='https://www.instagram.com/topsecurity.kz/' target="_blank"> Instagram: @topsecurity.kz. </a> График работы офиса с 9.00 - 18.00`
+      ptext: `Наш офис расположен по адресу <br> г Алматы ул Шевченко 153/1. <br> Телефон : 5335, +7 (701) 643-79-56. <br> Email: info@topsecurity.kz. <br> <a href='https://www.instagram.com/topsecurity.kz/' target="_blank">  Instagram: @topsecurity.kz. </a> <br> График работы офиса с 9.00 - 18.00`,
+      ptextMobile: `Наш офис расположен по адресу г Алматы ул Шевченко 153/1. Телефон : 5335, +7 (701) 643-79-56. Email: info@topsecurity.kz. <a href='https://www.instagram.com/topsecurity.kz/' target="_blank"> Instagram: @topsecurity.kz. </a> График работы офиса с 9.00 - 18.00`
     };
   },
   components: {

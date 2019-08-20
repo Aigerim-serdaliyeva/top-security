@@ -3,7 +3,7 @@
         .flex-beetween
             img(src="~@/assets/images/mobile/toggle.svg", alt="", @click="toggleMenu").mobile-header__svg
             article.skaska                
-                a(href="tel:+77013510986") +7 (701) 351-09-86
+                a(href="tel:+77016437956") +7 (701) 643-79-56
                 a(href="tel:+77273646874") +7 (727) 364-68-74                                
             img(v-if="article", src="~@/assets/images/mobile/article.svg", alt="", @click="toggleArticle").mobile-header__article
         .mobile-header__title
